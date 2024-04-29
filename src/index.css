@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: #bbb;
+  text-align: center;
+}
+
+body button {
+  border: none;
+  background-color: transparent;
+  outline: 1px solid red;
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: 0 3px 100px 0 #fcf;
+  color: inherit;
+  /* color: #bbb; */
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+body button:hover {
+  background-color: red;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: #fff;
+}
+
+.counter {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  box-shadow: 0 0.5px 30px 0;
+  border-radius: 5px;
+  padding: 5px;
+}
