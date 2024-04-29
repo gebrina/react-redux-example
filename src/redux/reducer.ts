@@ -1,7 +1,11 @@
 import { Action } from './actions';
 import { DECREMENT, INCREMENT } from './constant';
 
-const initialState = {
+export type AppState={
+  counter:number
+}
+
+const initialState:AppState = {
   counter: 0,
 };
 
